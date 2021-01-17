@@ -145,7 +145,19 @@
     <ClCompile Include="10. 연예인 캐스팅 C언어에서의 형 변환.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="11-1. C언어의 아파트 (배열), 상수.c" />
+    <ClCompile Include="11-1. C언어의 아파트 (배열), 상수.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="11-2. C언어의 아파트2 %28고차원의 배열%29.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="12-1. 포인터는 영희이다! (포인터).c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="12-2. 포인터는 영희이다 2! (포인터).c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="12-3. 포인터는 영희이다 3! (포인터).c" />
     <ClCompile Include="2-2. 주석에 대한 이해.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
