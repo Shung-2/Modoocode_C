@@ -60,5 +60,14 @@
     <ClCompile Include="12-3. 포인터는 영희이다 3! (포인터).c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="13-1. 마술 상자 함수(function).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="13-2. 마술 상자 함수 2 (function).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="13-3. 마술 상자 함수 3 (function).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
