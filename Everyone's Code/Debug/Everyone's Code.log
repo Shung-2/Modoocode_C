@@ -1,6 +1,2 @@
-﻿  13-3. 마술 상자 함수 3 (function).c
-C:\Users\zlzlf\source\repos\Everyone's Code\Everyone's Code\13-3. 마술 상자 함수 3 (function).c(114): warning C4716: 'pswap': 값을 반환해야 합니다.
-C:\Users\zlzlf\source\repos\Everyone's Code\Everyone's Code\13-3. 마술 상자 함수 3 (function).c(132): warning C4716: 'read_val': 값을 반환해야 합니다.
-C:\Users\zlzlf\source\repos\Everyone's Code\Everyone's Code\13-3. 마술 상자 함수 3 (function).c(127): warning C4716: 'add1_element': 값을 반환해야 합니다.
-C:\Users\zlzlf\source\repos\Everyone's Code\Everyone's Code\13-3. 마술 상자 함수 3 (function).c(229): warning C4716: 'Problem1': 값을 반환해야 합니다.
+﻿  16-3. 구조체와 친구들(공용체(union), 열거형(enum)).c
   Everyone's Code.vcxproj -> C:\Users\zlzlf\source\repos\Everyone's Code\Debug\Everyone's Code.exe
