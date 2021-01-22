@@ -190,10 +190,22 @@
     <ClCompile Include="16-3. 구조체와 친구들(공용체(union), 열거형(enum)).c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="17. 변수의 생존 조건 및 데이터 세그먼트의 구조.c" />
+    <ClCompile Include="17. 변수의 생존 조건 및 데이터 세그먼트의 구조.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="18-1. 파일 뽀개기 (헤더파일과 include).c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="18-2. 파일 뽀개기 (전처리기 친구들, 라이브러리).c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="19. main 함수의 인자, 텅 빈 void 형.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2-2. 주석에 대한 이해.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="20-1. 동동동 메모리 동적 할당(Dynamic Memory Allocation).c" />
     <ClCompile Include="3. 변수가 뭐지.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -215,6 +227,12 @@
     <ClCompile Include="9. 만약에 2탄(switch 문).c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="human.c" />
+    <ClCompile Include="str.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="human.h" />
+    <ClInclude Include="str.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

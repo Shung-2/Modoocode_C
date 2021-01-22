@@ -93,5 +93,31 @@
     <ClCompile Include="17. 변수의 생존 조건 및 데이터 세그먼트의 구조.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="18-1. 파일 뽀개기 (헤더파일과 include).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="str.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="18-2. 파일 뽀개기 (전처리기 친구들, 라이브러리).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="human.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="19. main 함수의 인자, 텅 빈 void 형.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="20-1. 동동동 메모리 동적 할당(Dynamic Memory Allocation).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="str.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="human.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
