@@ -111,6 +111,9 @@
     <ClCompile Include="20-1. 동동동 메모리 동적 할당(Dynamic Memory Allocation).c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="20-2. 메모리 동적할당 + 메모리 갖고 놀기.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="str.h">

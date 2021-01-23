@@ -205,7 +205,10 @@
     <ClCompile Include="2-2. 주석에 대한 이해.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="20-1. 동동동 메모리 동적 할당(Dynamic Memory Allocation).c" />
+    <ClCompile Include="20-1. 동동동 메모리 동적 할당(Dynamic Memory Allocation).c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="20-2. 메모리 동적할당 + 메모리 갖고 놀기.c" />
     <ClCompile Include="3. 변수가 뭐지.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
