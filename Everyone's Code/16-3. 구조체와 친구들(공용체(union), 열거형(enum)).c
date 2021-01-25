@@ -51,58 +51,58 @@ enum { RED = 3, BLUE, WHITE, BLACK };
 
 int main()
 {
-	///* 구조체 안의 구조체 */
-	//struct company Kim;
-	//Kim.data.age = 31;
-	//Kim.data.salary = 3000000;
+	/* 구조체 안의 구조체 */
+	struct company Kim;
+	Kim.data.age = 31;
+	Kim.data.salary = 3000000;
 
-	//printf("Kim's age : %d \n", Kim.data.age);
-	//printf("Kim's salary : %d$/year \n", Kim.data.salary);
+	printf("Kim's age : %d \n", Kim.data.age);
+	printf("Kim's salary : %d$/year \n", Kim.data.salary);
 
-	///* 구조체를 리턴하는 함수 */
-	//struct AA a;
-	//a = function("a.i : % d \n", a.i);
+	/* 구조체를 리턴하는 함수 */
+	struct AA a;
+	a = function("a.i : % d \n", a.i);
 
-	///*
-	//구조체 변수를 정의하는 색다른 방법.
-	//예제를 이렇게 길게 만든 이유는 소스를 읽으면서 구조체와 조금 더 친해지기 바래서입니다.
-	//소스를 찬찬히 분석해보세요 ^^
-	//*/
+	/*
+	구조체 변수를 정의하는 색다른 방법.
+	예제를 이렇게 길게 만든 이유는 소스를 읽으면서 구조체와 조금 더 친해지기 바래서입니다.
+	소스를 찬찬히 분석해보세요 ^^
+	*/
 
-	//Ball.x = 3;
-	//Ball.y = 4;
-	//copy_str(Ball.name, "RED BALL");
-	//Print_Obj_Status(Ball);
+	Ball.x = 3;
+	Ball.y = 4;
+	copy_str(Ball.name, "RED BALL");
+	Print_Obj_Status(Ball);
 
-	///* 멤버를 쉽게 초기화 하기*/
-	//struct HUMAN Adam = { 31, 182, 75, 0 };
-	//struct HUMAN Eve = { 27, 166, 48, 1 };
+	/* 멤버를 쉽게 초기화 하기*/
+	struct HUMAN Adam = { 31, 182, 75, 0 };
+	struct HUMAN Eve = { 27, 166, 48, 1 };
 
-	//Print_Status(Adam);
-	//Print_Status(Eve);
+	Print_Status(Adam);
+	Print_Status(Eve);
 
-	///* 공용체 */
-	//union A a;
-	//a.i = 0x12345678;
-	//printf("%x", a.j);
+	/* 공용체 */
+	union A a;
+	a.i = 0x12345678;
+	printf("%x", a.j);
 
-	///* 열거형의 도입 */
-	//int palette = RED;
-	//switch (palette)
-	//{
-	//case RED :
-	//	printf("palette : RED \n");
-	//	break;
-	//case BLUE :
-	//	printf("palette : BLUE \n");
-	//	break;
-	//case WHITE:
-	//	printf("palette : WHITE \n");
-	//	break;
-	//case BLACK:
-	//	printf("palette : BLACK \n");
-	//	break;
-	//}
+	/* 열거형의 도입 */
+	int palette = RED;
+	switch (palette)
+	{
+	case RED :
+		printf("palette : RED \n");
+		break;
+	case BLUE :
+		printf("palette : BLUE \n");
+		break;
+	case WHITE:
+		printf("palette : WHITE \n");
+		break;
+	case BLACK:
+		printf("palette : BLACK \n");
+		break;
+	}
 
 	/* 열거형 팁 */
 	int palette = BLACK;

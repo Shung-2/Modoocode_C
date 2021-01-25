@@ -114,12 +114,24 @@
     <ClCompile Include="20-2. 메모리 동적할당 + 메모리 갖고 놀기.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="21. 매크로 함수, 인라인 함수.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="22. C 언어의 잡다한 키워드들 (typedef, volatile, pragma).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="23-1. 파일 하고 이야기 하기 (파일 입출력에 대한 기본적 이해).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="str.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="human.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="werid.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

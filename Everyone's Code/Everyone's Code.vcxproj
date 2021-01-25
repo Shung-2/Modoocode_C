@@ -208,7 +208,16 @@
     <ClCompile Include="20-1. 동동동 메모리 동적 할당(Dynamic Memory Allocation).c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="20-2. 메모리 동적할당 + 메모리 갖고 놀기.c" />
+    <ClCompile Include="20-2. 메모리 동적할당 + 메모리 갖고 놀기.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="21. 매크로 함수, 인라인 함수.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="22. C 언어의 잡다한 키워드들 (typedef, volatile, pragma).c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="23-1. 파일 하고 이야기 하기 (파일 입출력에 대한 기본적 이해).c" />
     <ClCompile Include="3. 변수가 뭐지.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -236,6 +245,7 @@
   <ItemGroup>
     <ClInclude Include="human.h" />
     <ClInclude Include="str.h" />
+    <ClInclude Include="werid.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
