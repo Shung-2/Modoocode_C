@@ -1,2 +1,3 @@
-# Modoocode_C
-Study modoocode.com chewing C language
+# 모두의 코드 씹어먹는 C 언어 강좌
+
+모두의 코드(https://modoocode.com/)에서 제공하는 씹어먹는 C 언어 강좌의 각 강좌에서 제공하는 문제에 해답에 대한 소스코드 입니다.
